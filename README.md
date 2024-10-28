@@ -1,6 +1,15 @@
 # data-sourcing-challenge
 This project is part of my Week 5 - Module 5 Challenge for the Rutgers AI Bootcamp.
 
+## Table of Contents
+- [Project Details](#project-details)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Project Breakdown](#project-breakdown)
+
+---
+
+
 ## Project Details
 
 ### Goal
@@ -12,8 +21,20 @@ Extract data from NASA’s API spanning **May 2013** to **May 2024** (11 years) 
 - **Source**: NASA API (data on CME and GST events)
 
 ### Output
-- **File**: collected_data.csv
+- **File**: [collected_data.csv](output/collectd_data.csv)
 
+
+## Project Structure
+
+```bash
+data-sourcing-challenge
+|__ output
+|   |__ collected_data.csv
+|__ README.md
+|__ .env                           # should be created by the user to add the api key
+|__ retrieve_data.ipynb
+```
+---
 
 ## Installation
 
